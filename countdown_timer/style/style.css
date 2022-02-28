@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700;800&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Uchen&family=Varela+Round&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/sonja-langford-eIkbSc3SDtI-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.shiftt h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(40, 114, 114);
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 2rem;
+    line-height: 1rem;
+    margin: 0 2rem;
+    font-weight: 500;
+    color: rgb(158, 94, 10);
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+    color: rgb(82, 46, 30);
+}
